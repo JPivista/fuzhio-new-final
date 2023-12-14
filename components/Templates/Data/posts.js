@@ -1,3 +1,4 @@
+'use client'
 // data/posts.js
 const posts = [
     {

@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link';
 import posts from '../Data/posts'
 import slugify from 'slugify';

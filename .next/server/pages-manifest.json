@@ -1,6 +1,15 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/404": "pages/404.js"
+  "/404": "pages/404.html",
+  "/about": "pages/about.html",
+  "/agriculture": "pages/agriculture.html",
+  "/blog": "pages/blog.html",
+  "/community-engagement": "pages/community-engagement.html",
+  "/home": "pages/home.html",
+  "/fuzhio-covid-response": "pages/fuzhio-covid-response.html",
+  "/noble-plastic": "pages/noble-plastic.html",
+  "/": "pages/index.html",
+  "/posts/[slug]": "pages/posts/[slug].html",
+  "/_document": "pages/_document.js"
 }
