@@ -18,8 +18,13 @@ const NumberCounter = ({ title, symbol, start, end }) => {
     }, [count, start, end]);
 
     return (
-        <Row className="number-counter m-md-1 pt-5 d-flex flex-column align-items-center" style={{ color: '#923022', borderBottom: '2px solid #923022', letterSpacing: '5px' }}>
-            <span className="count poppins-bold">{count}<span className="symbol">{symbol}</span></span>
+        <Row
+            className="number-counter m-md-1 pt-5 d-flex flex-column align-items-center"
+            style={{ color: '#923022', borderBottom: '2px solid #923022', letterSpacing: '5px' }}
+        >
+            <span className="count poppins-bold">{count}
+                <span className="symbol">{symbol}</span>
+            </span>
             <h2 className="title pb-4">{title}</h2>
         </Row>
     );
